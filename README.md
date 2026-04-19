@@ -104,8 +104,10 @@ https://github.com/user-attachments/assets/5adb55a1-615a-4cc9-b7cf-768178dfb2de
 - **Ultra Low Latency** — WebRTC, QUIC/WebTransport coming soon
 - **Cross-Platform** — Windows, macOS, and Linux host support
 - **Browser Access** — Connect from any device with a modern browser
-- **Full Input** — Keyboard, mouse, and gamepad passthrough
+- **Full Input** — Keyboard, mouse, gamepad, and pen/tablet passthrough (pressure & tilt)
 - **Multi-Codec** — H.264, H.265, AV1 with automatic negotiation
+- **HDR & High Bit Depth** — 10-bit (P010) capture and encoding, YUV 4:4:4 for crisp text
+- **Virtual Display** (Windows) — Bundled IddCx driver for headless hosts and custom resolutions
 - **Encrypted** — All connections secured with DTLS/SRTP and QUIC
 - **Auto Updates** — Built-in updater keeps your host app current
 
@@ -119,15 +121,43 @@ https://github.com/user-attachments/assets/5adb55a1-615a-4cc9-b7cf-768178dfb2de
 
 ## Download
 
-Get the latest version from [Releases](https://github.com/alluno-io/alluno/releases):
+Get the latest version from [Releases](https://github.com/alluno-io/alluno/releases), or visit **[alluno.io](https://alluno.io/download)** to get started.
 
-| Platform | Format |
-|----------|--------|
-| Windows | `.msi` / `.exe` |
-| macOS | `.dmg` |
-| Linux | `.deb` / `.AppImage` |
+### Windows
 
-Or visit **[alluno.io](https://alluno.io)** to get started.
+| OS | Architecture | Download |
+|---|---|---|
+| Windows 10 (1809+) / Windows 11 | x86_64 | `.exe` (NSIS installer) |
+
+- Tested up to 4K 120FPS
+- [ViGEmBus](https://github.com/ViGEm/ViGEmBus/releases) required for gamepad support
+
+### macOS
+
+| OS | Architecture | Download |
+|---|---|---|
+| macOS 12.3 (Monterey) or later | Apple Silicon (arm64) | `.dmg` (macos-arm) |
+| macOS 12.3 (Monterey) or later | Intel (x86_64) | `.dmg` (macos-intel) |
+
+- Screen Recording permission required on first launch
+
+### Linux
+
+Requires glibc ≥ 2.35. Pick the package for your distro:
+
+| Distro | Recommended | Install |
+|---|---|---|
+| Ubuntu 22.04+ / Mint / Pop!_OS / Zorin | `.deb` | `sudo apt install ./Alluno_*.deb` |
+| Debian 12+ | `.deb` | `sudo apt install ./Alluno_*.deb` |
+| Fedora 38+ / Nobara / Ultramarine | `.rpm` | `sudo dnf install ./Alluno-*.rpm` |
+| RHEL 10 / Rocky 10 / AlmaLinux 10 | `.rpm` | `sudo dnf install ./Alluno-*.rpm` (CRB repo enabled by default) |
+| Arch / Manjaro / EndeavourOS / CachyOS | AppImage | `chmod +x *.AppImage && ./Alluno_*.AppImage` |
+| openSUSE Tumbleweed / Leap 15.5+ | AppImage | `chmod +x *.AppImage && ./Alluno_*.AppImage` |
+| Bazzite / Fedora Atomic / other immutable | AppImage | `chmod +x *.AppImage && ./Alluno_*.AppImage` |
+
+- FFmpeg libraries are bundled with all package formats
+- PulseAudio or PipeWire required for audio
+- X11 or Wayland session required
 
 ## Questions
 
@@ -135,7 +165,7 @@ For bugs, feature requests, or questions — open an [issue](https://github.com/
 
 ## FFmpeg License
 
-This application uses [FFmpeg](https://ffmpeg.org/) 8.0.1, licensed under LGPLv2.1. FFmpeg libraries are dynamically linked and may be replaced by the end user with a compatible version. See the [FFmpeg website](https://www.ffmpeg.org/) for source code and details.
+This application uses [FFmpeg](https://ffmpeg.org/) 8.1, licensed under LGPLv2.1. FFmpeg libraries are dynamically linked and may be replaced by the end user with a compatible version. See the [FFmpeg website](https://www.ffmpeg.org/) for source code and details.
 
 ## License
 
