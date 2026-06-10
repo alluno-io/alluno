@@ -1,9 +1,6 @@
-<h1 align="center">
-  <a href="https://alluno.io"><img src="https://alluno.io/logo-dark.svg" alt="" width="32" height="32" style="vertical-align: middle;" /></a>&nbsp;Alluno
-</h1>
+![logo](https://alluno.io/_og/s/c_OgDefault,title_Welcome,description_All+your+devices+in+one,eyebrow_~4oCUIEFMTFVOTw.png)
 
 <p align="center">
-  <strong>All your devices in one.</strong><br/>
   Hardware-accelerated remote desktop built with Rust.
 </p>
 
