@@ -8,6 +8,6 @@ Usage of this software is governed by the [Terms of Service](https://alluno.io/t
 
 ## Third-Party Software
 
-This application uses [FFmpeg](https://www.ffmpeg.org/) which is licensed under the LGPLv2.1. FFmpeg libraries are dynamically linked and may be replaced by the end user with a compatible version.
+This application uses [FFmpeg](https://www.ffmpeg.org/) which is licensed under the LGPLv3. FFmpeg libraries are dynamically linked and may be replaced by the end user with a compatible version.
 
 For questions regarding licensing, contact [support@alluno.io](mailto:support@alluno.io).

@@ -165,7 +165,7 @@ For bugs, feature requests, or questions — open an [issue](https://github.com/
 
 ## FFmpeg License
 
-This application uses [FFmpeg](https://ffmpeg.org/) 8.1, licensed under LGPLv2.1. FFmpeg libraries are dynamically linked and may be replaced by the end user with a compatible version. See the [FFmpeg website](https://www.ffmpeg.org/) for source code and details.
+This application uses [FFmpeg](https://ffmpeg.org/) 9.0, licensed under LGPLv3. FFmpeg libraries are dynamically linked and may be replaced by the end user with a compatible version. See the [FFmpeg website](https://www.ffmpeg.org/) for source code and details.
 
 ## License
 
