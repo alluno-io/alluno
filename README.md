@@ -1,4 +1,4 @@
-![logo](https://alluno.io/_og/s/c_OgDefault,title_Welcome,description_All+your+devices+in+one,eyebrow_~4oCUIEFMTFVOTw.png)
+![Alluno](.github/social-preview.png)
 
 <p align="center">
   Hardware-accelerated remote desktop built with Rust.
