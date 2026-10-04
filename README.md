@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://discord.gg/YkwJmwHCBR"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://discord.gg/uaNRed3UWM"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://youtube.com/@alluno-io"><img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white" alt="YouTube" /></a>
   <a href="https://x.com/alluno_io"><img src="https://img.shields.io/badge/X-000000?logo=x&logoColor=white" alt="X" /></a>
   <a href="https://instagram.com/alluno.io"><img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white" alt="Instagram" /></a>
@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://github.com/alluno-io/alluno/releases">Download</a> &middot;
-  <a href="https://alluno.io/getting-started">Docs</a>
+  <a href="https://alluno.io/docs">Docs</a>
 </p>
 
 ---
@@ -75,7 +75,7 @@ https://github.com/user-attachments/assets/37e9466f-fba8-415c-8b6e-abe3c7720741
 
 
 ### Cross-Platform
-> Windows, macOS, and Linux — access any host from any device.
+> Windows, macOS, and Linux, access any host from any device.
 
 
 
@@ -96,17 +96,17 @@ https://github.com/user-attachments/assets/5adb55a1-615a-4cc9-b7cf-768178dfb2de
 
 ## Features
 
-- **Hardware-Accelerated Encoding** — NVENC, Quick Sync, AMF, VAAPI, VideoToolbox
-- **Zero-Copy Pipelines** — Windows Graphics Capture, ScreenCaptureKit, KMS/DRM + DMA-BUF
-- **Ultra Low Latency** — WebRTC, QUIC/WebTransport coming soon
-- **Cross-Platform** — Windows, macOS, and Linux host support
-- **Browser Access** — Connect from any device with a modern browser
-- **Full Input** — Keyboard, mouse, gamepad, and pen/tablet passthrough (pressure & tilt)
-- **Multi-Codec** — H.264, H.265, AV1 with automatic negotiation
-- **HDR & High Bit Depth** — 10-bit (P010) capture and encoding, YUV 4:4:4 for crisp text
-- **Virtual Display** (Windows) — Bundled IddCx driver for headless hosts and custom resolutions
-- **Encrypted** — All connections secured with DTLS/SRTP and QUIC
-- **Auto Updates** — Built-in updater keeps your host app current
+- **Hardware-Accelerated Encoding**: NVENC, Quick Sync, AMF, VAAPI, VideoToolbox
+- **Zero-Copy Pipelines**: Windows Graphics Capture, ScreenCaptureKit, KMS/DRM + DMA-BUF
+- **Ultra Low Latency**: WebRTC, QUIC/WebTransport coming soon
+- **Cross-Platform**: Windows, macOS, and Linux host support
+- **Browser Access**: Connect from any device with a modern browser
+- **Full Input**: Keyboard, mouse, gamepad, and pen/tablet passthrough (pressure & tilt)
+- **Multi-Codec**: H.264, H.265, AV1 with automatic negotiation
+- **HDR & High Bit Depth**: 10-bit (P010) capture and encoding, YUV 4:4:4 for crisp text
+- **Virtual Display** (Windows): Bundled IddCx driver for headless hosts and custom resolutions
+- **Encrypted**: All connections secured with DTLS/SRTP and QUIC
+- **Auto Updates**: Built-in updater keeps your host app current
 
 ## Platform Support
 
@@ -158,7 +158,7 @@ Requires glibc ≥ 2.35. Pick the package for your distro:
 
 ## Questions
 
-For bugs, feature requests, or questions — open an [issue](https://github.com/alluno-io/alluno/issues) or ask in [Discord](https://discord.gg/YkwJmwHCBR).
+For bugs, feature requests, or questions, open an [issue](https://github.com/alluno-io/alluno/issues) or ask in [Discord](https://discord.gg/uaNRed3UWM).
 
 ## FFmpeg License
 
