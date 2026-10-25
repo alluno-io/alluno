@@ -98,7 +98,7 @@ https://github.com/user-attachments/assets/5adb55a1-615a-4cc9-b7cf-768178dfb2de
 
 - **Hardware-Accelerated Encoding**: NVENC, Quick Sync, AMF, VAAPI, VideoToolbox
 - **Zero-Copy Pipelines**: Windows Graphics Capture, ScreenCaptureKit, KMS/DRM + DMA-BUF
-- **Ultra Low Latency**: WebRTC, QUIC/WebTransport coming soon
+- **Ultra Low Latency**: WebRTC and Media over QUIC (MoQ)
 - **Cross-Platform**: Windows, macOS, and Linux host support
 - **Browser Access**: Connect from any device with a modern browser
 - **Full Input**: Keyboard, mouse, gamepad, and pen/tablet passthrough (pressure & tilt)
